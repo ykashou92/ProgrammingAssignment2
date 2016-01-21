@@ -4,7 +4,11 @@
 ## Write a short comment describing this function
 
 makeCacheMatrix <- function(x = matrix()) {
-
+        inverse_x <- NULL
+        set <- function(y) {
+                x <<- y
+                inverse_x <<- NULL
+        }
 }
 
 
